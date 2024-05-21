@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta property="og:title" content="Metta Agancy"/>
+    <meta property="og:description" content="Make money quick and easy by using our courses."/>
+    <meta property="og:site_name" content="Metta Agancy"/>
+    <meta property="og:image" content="https://fady-gade.github.io/Metta-Agancy/images/banner.png"/>
+    <meta property="og:image:width" content="400"/>
+    <meta property="og:image:height" content="300"/>
+    <link rel="icon" type="image/x-icon" href="images/logo.ico">
+    <title>Metta Agency</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #1a1a1a;
+            background-image: url('images/background-desktop.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 6vh;
+            padding: 0 140px;
+        }
+
+        .l-c {
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            height: 82px;
+            margin-right: 10px;
+        }
+
+        #logo-text {
+            font-size: 1.5em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 80px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            position: relative;
+            overflow: hidden;
+        }
+
+        nav a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: lightblue;
+            transform: translateX(-5%);
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            opacity: 0;
+        }
+
+        nav a:hover::after {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        nav a:hover {
+            color: lightblue;
+        }
+
+        .i-a {
+            text-decoration: underline;
+            text-decoration-color: lightblue;
+            text-decoration-thickness: 1.5px;
+        }
+
+        .c-s {
+            padding: 20px;
+            max-width: 600px;
+            margin-top: 5%;
+            margin-left: 140px;
+            margin-right: 140px;
+        }
+
+        section h1 {
+            font-size: 2em;
+            font-weight: bolder;
+        }
+
+        section p {
+            color: #b7b4c2;
+            font-size: 1.4em;
+        }
+
+        .a {
+            color: #3296f1;
+        }
+
+        .b {
+            display: flex;
+        }
+
+        .bt {
+            color: white;
+            background-color: #339cff;
+            height: 50px;
+            width: 150px;
+            border: none;
+            border-radius: 25px;
+            margin-right: 60px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .c-a {
+            position: absolute;
+            bottom: 1px;
+            right: 1px;
+        }
+
+        .n {
+            max-height: 400px;
+        }
+
+        .bi {
+            max-height: 400px;
+            max-width: 700px;
+        }
+
+        .i {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="l-c"><img src="images/logo.png" alt="Metta Logo" id="logo"><span id="logo-text">Metta</span></div>
+        <nav>
+            <ul>
+                <li><a href="#about" d="a" id="item-about" class="c-i">About</a></li>
+                <li><a href="#contact" d="c" id="item-contact" class="c-i">Contact</a></li>
+                <li><a href="#other" d="o" id="item-other" class="c-i">Other</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="c-s i">
+            <h1>About</h1>
+            <p>Metta Agency is new enternainment invesment agency to boostrap and success your jobs. With high benefits
+                to beginners evolution in crypto and payment solutions.</p>
+        </section>
+        <section id="contact" class="c-s i">
+            <h1>Contact</h1>
+            <p>If you want to contact us and get great earnings and work, visit our links.</p>
+            <div class="b"><a target="_blank" href="https://discord.com/"><button class="bt">Discord</button></a><a
+                    target="_blank" href="mailto:mettaagency@proton.me"><button class="bt">Email</button></a></div>
+        </section>
+        <section id="other" class="c-s i">
+            <h1>Help Centar</h1>
+            <p>If you need help from our agency and have some questions, contact us by email <a class="a"
+                    target="_blank" href="mailto:mettaagency@proton.me">mettaagency@proton.me</a>.</p>
+            <div class="b"><a target="_blank" href="mailto:mettaagency@proton.me"><button class="bt">Other</button></a>
+            </div>
+        </section>
+        <section id="e404" class="c-s">
+            <h1>Error 404</h1>
+            <p>We can't seem to find the page, please try agian later.</p>
+        </section><img src="images/asset-1.png" alt="Asset Image About" id="asset-about" class="c-a n"><img
+            src="images/asset-2.png" alt="Asset Image Contact" id="asset-contact" class="c-a bi i"><img
+            src="images/asset-3.png" alt="Asset Image Other" id="asset-other" class="c-a bi i"><img
+            src="images/asset-4.png" alt="Asset Image 404" id="asset-e404" class="c-a bi i">
+    </main>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () { 
+            const s = document.querySelectorAll('.c-s'), a = document.querySelectorAll('.c-a'), i = document.querySelectorAll('.c-i'); 
+            function e() { 
+                const h = window.location.hash, p = h.substring(1); 
+
+                if (p) { 
+                    let found = false;
+                    s.forEach(s => { 
+                        if (s.id === p) { 
+                            s.classList.remove('i');
+                            found = true;
+                        } else {
+                            s.classList.add('i');
+                        }
+                    });
+                    
+                    if (!found) {
+                        document.getElementById('e404').classList.remove('i');
+                        document.getElementById('asset-e404').classList.remove('i');
+                    } else {
+                        a.forEach(a => { a.id === "asset-" + p ? a.classList.remove('i') : a.classList.add('i') });
+                        i.forEach(i => { i.id === "item-" + p ? i.classList.add('i-a') : i.classList.remove('i-a') });
+                    }
+                } 
+            } 
+
+            e(), window.addEventListener('hashchange', e); 
+
+            const h = document.querySelectorAll('nav ul li a'); 
+            h.forEach(h => { h.addEventListener('click', function () { 
+                const p = this.getAttribute('d'); 
+                s.forEach(s => { 
+                    if (s.id === p) { 
+                        s.classList.remove('i');
+                    } else {
+                        s.classList.add('i');
+                    }
+                });
+                a.forEach(a => { a.id === "asset-" + p ? a.classList.remove('i') : a.classList.add('i') });
+                i.forEach(i => { i.id === "item-" + p ? i.classList.add('i-a') : i.classList.remove('i-a') });
+            }) 
+        }) 
+    });
+</script>
+</body>
+</html>
